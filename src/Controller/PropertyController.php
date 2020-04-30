@@ -34,10 +34,9 @@ class PropertyController extends AbstractController {
 
 
          $property = $this->repository->findAllVisible();
-//        $property[0]->setSold(true);
-//        $this->em->flush();
         return $this->render('property/index.html.twig', [
-            'current_menu' => 'properties'
+            'current_menu' => 'properties',
+            'property' => $property
         ]);
     }
 
