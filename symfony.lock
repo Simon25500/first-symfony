@@ -99,6 +99,9 @@
     "fzaninotto/faker": {
         "version": "v1.9.1"
     },
+    "heroku/heroku-buildpack-php": {
+        "version": "v174"
+    },
     "imagine/imagine": {
         "version": "1.2.3"
     },
