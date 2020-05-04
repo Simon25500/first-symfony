@@ -15,7 +15,6 @@ use Vich\UploaderBundle\VichUploaderBundle as Vich;
 /**
  * @ORM\Entity(repositoryClass="App\Repository\PropertyRepository")
  * @UniqueEntity("title")
- * @Vich\Uploadable
  */
 class Property
 {
