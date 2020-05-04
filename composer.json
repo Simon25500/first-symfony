@@ -7,6 +7,7 @@
         "ext-iconv": "*",
         "cocur/slugify": "^4.0",
         "fzaninotto/faker": "^1.9",
+        "knplabs/knp-paginator-bundle": "^5.2",
         "laminas/laminas-code": "^3.4",
         "liip/imagine-bundle": "^2.3",
         "sensio/framework-extra-bundle": "^5.1",
@@ -41,7 +42,9 @@
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
-        "symfony/test-pack": "*"
+        "symfony/test-pack": "*",
+        "phpunit/phpunit": "*",
+        "phpspec/phpspec": "*"
     },
     "config": {
         "preferred-install": {
